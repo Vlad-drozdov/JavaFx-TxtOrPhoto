@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="main" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.l28.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <HBox alignment="TOP_CENTER" fillHeight="false" prefWidth="380.0">
+      <children>
+      
+          <Label fx:id="ModelData" alignment="TOP_CENTER" contentDisplay="CENTER" text="Text" wrapText="true" />
+      </children>
+      <padding>
+         <Insets left="10.0" right="10.0" />
+      </padding>
+   </HBox>
+    <Button layoutX="175.0" layoutY="150.0" onAction="#onHelloButtonClick" text="Check" />
+</Pane>
